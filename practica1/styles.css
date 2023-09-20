@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    background-color: blue;
+}
+
+header{
+    position: relative;
+    border: red 1px solid;
+}
+
+nav{
+    position: absolute;
+    border: red 1px solid;
+    right: 0px;
+    width: 40%;
+
+}
+nav ul{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+}
+nav ul li{
+    text-align: justify;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline;
+    text-align: justify;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+section{
+    position: relative;
+}
